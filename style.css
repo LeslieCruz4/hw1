@@ -1,0 +1,78 @@
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 27px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", monospace;
+  line-height: 1.5;
+  background-color: #f8d7dd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Top Heading */
+h1 {
+  color: #802b86;
+  font-size: 36px;
+}
+
+/* Section Heading */
+h2 {
+  color: #7fa683;
+}
+
+/* Paragraph */
+#goal {
+  color: #a494c8;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+/* links */
+a {
+  color: #467dca;
+  text-decoration: none;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  color: #802b86;
+}
+
+main {
+  flex: 1;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  background-color: #7fa683;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px dashed #802b86;
+  border-bottom: 1px dashed #802b86;
+}
+
+footer p {
+  color: #f8d7dd;
+}
